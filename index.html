@@ -1,116 +1,160 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conoce las redes sociales y sitios oficiales de RSI.">
 
-<title>RSI | Redes Sociales</title>
+    <title>RSI | Redes Sociales</title>
 
-<style>
-* {
-  box-sizing: border-box;
-}
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-body {
-  margin: 0;
-  min-height: 100vh;
-  background: #170b38;
-  font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
+        body {
+            font-family: Arial, sans-serif;
+            background: #f3f5f8;
+            color: #222;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
 
-.contenedor {
-  background: white;
-  width: 100%;
-  max-width: 420px;
-  padding: 35px 25px;
-  border-radius: 15px;
-  text-align: center;
-  box-shadow: 0 5px 25px rgba(0,0,0,0.2);
-}
+        header {
+            background: #101d35;
+            color: white;
+            padding: 22px;
+            text-align: center;
+        }
 
-.logo {
-  width: 170px;
-  height: 120px;
-  object-fit: contain;
-  margin-bottom: 15px;
-}
+        header h2 {
+            font-size: 22px;
+            letter-spacing: 2px;
+        }
 
-h1 {
-  color: #253449;
-  font-size: 25px;
-  line-height: 1.4;
-}
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 35px 15px;
+        }
 
-p {
-  color: #777;
-  font-size: 16px;
-  line-height: 1.5;
-  margin-bottom: 28px;
-}
+        .contenedor {
+            background: white;
+            width: 100%;
+            max-width: 500px;
+            padding: 35px 25px;
+            border-radius: 16px;
+            text-align: center;
+            box-shadow: 0 5px 25px rgba(0,0,0,0.10);
+        }
 
-.boton {
-  display: block;
-  width: 100%;
-  padding: 15px;
-  margin: 14px 0;
-  border: 2px solid #176da3;
-  border-radius: 9px;
-  color: #176da3;
-  text-decoration: none;
-  font-size: 17px;
-  font-weight: bold;
-  transition: 0.2s;
-}
+        .logotipo {
+            display: block;
+            width: 190px;
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto 25px;
+        }
 
-.boton:hover {
-  background: #176da3;
-  color: white;
-}
+        h1 {
+            font-size: 25px;
+            margin-bottom: 15px;
+            color: #142747;
+        }
 
-footer {
-  margin-top: 25px;
-  color: #999;
-  font-size: 12px;
-}
-</style>
+        p {
+            font-size: 15px;
+            line-height: 1.6;
+            color: #666;
+            margin-bottom: 25px;
+        }
+
+        .boton {
+            display: block;
+            background: #142747;
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            margin: 13px 0;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .boton:hover {
+            background: #2865a8;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            background: #101d35;
+            color: white;
+            text-align: center;
+            padding: 18px;
+            font-size: 12px;
+        }
+
+        @media (max-width: 480px) {
+            .contenedor {
+                padding: 25px 18px;
+            }
+
+            h1 {
+                font-size: 22px;
+            }
+        }
+    </style>
 </head>
 
 <body>
 
-<div class="contenedor">
-<img src="logo4r444444_edited%20jpg.jpg" alt="Logo RSI" class="logotipo">
+    <header>
+        <h2>RSI</h2>
+    </header>
 
-<h1>Síguenos en nuestras redes sociales</h1>
+    <main>
+        <div class="contenedor">
 
-<p>Conoce nuestras novedades y visita nuestros sitios oficiales.</p>
+            <img
+                src="logo4r444444_edited%20jpg.jpg"
+                alt="Logo RSI"
+                class="logotipo"
+            >
 
-<a class="boton"
-href="https://www.instagram.com/rafhasolucionintegrales/"
-target="_blank">
-Instagram
-</a>
+            <h1>Síguenos en nuestras redes sociales</h1>
 
-<a class="boton"
-href="https://rsienterprise.com/"
-target="_blank">
-Website
-</a>
+            <p>
+                Conoce nuestras novedades y visita
+                nuestros sitios oficiales.
+            </p>
 
-<a class="boton"
-href="https://www.facebook.com/share/1JsCV8jgUS/?mibextid=wwXIfr"
-target="_blank">
-Facebook
-</a>
+            <a
+                class="boton"
+                href="https://www.instagram.com/rafhasolucionintegrales/"
+                target="_blank"
+                rel="noopener noreferrer">
+                Instagram
+            </a>
 
-<footer>
-RSI | Rapha Soluciones Integrales
-</footer>
+            <a
+                class="boton"
+                href="https://rsienterprise.com/"
+                target="_blank"
+                rel="noopener noreferrer">
+                Sitio web oficial
+            </a>
 
-</div>
+        </div>
+    </main>
+
+    <footer>
+        © 2026 RSI. Todos los derechos reservados.
+    </footer>
 
 </body>
 </html>
